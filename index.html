@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4G Network QoS and Mobility Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>4G Network QoS and Mobility Dashboard</h1>
+
+    <div class="metrics">
+        <h2>QoS Metrics</h2>
+        <p>Latency: <span id="latency">50ms</span></p>
+        <p>Jitter: <span id="jitter">5ms</span></p>
+        <p>Packet Loss: <span id="packetLoss">0.2%</span></p>
+        <button onclick="simulateQoS()">Simulate QoS Change</button>
+    </div>
+
+    <canvas id="qosChart" width="400" height="200"></canvas>
+
+    <div class="mobility">
+        <h2>Mobility Management</h2>
+        <p>Current Cell: <span id="cell">Cell A</span></p>
+        <button onclick="simulateHandover()">Simulate Handover</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
