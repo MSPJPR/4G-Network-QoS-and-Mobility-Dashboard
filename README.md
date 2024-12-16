@@ -2,7 +2,7 @@
 Project Overview: 4G Network QoS and Mobility Dashboard
 
 website link:
-https://lnkd.in/gvKuf3kM
+https://sparkling-griffin-4cd7c8.netlify.app/
 
 ---
 
